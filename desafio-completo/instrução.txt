@@ -1,0 +1,25 @@
+INSTRUÇÕES DE EXECUÇÃO 
+Para ter acesso a página web ----
+(Lembrete: Nas opções abaixo o formulário não estará registrando no banco de dados. A opção 1 é ótima para visualização do site em diversos dispositivos. Na opção 2 só poderá visualizar no local que foi clonado os arquivos.)
+Opção 1- Necessário usar o link abaixo para visualizar o site .
+Link: https://fabiosetubaldesing.github.io/tesste/
+ 
+Opção 2- Necessário dar o git clone e baixar todos os arquivos na sua máquina local.
+
+
+Ativar o formulário ----
+1-       Importa o arquivo  SQL para seu banco de dados. 
+2-       Criar uma pasta com o nome de sua preferência. 
+3-       Usar o git clone e baixar todos os arquivos do site.
+4-       Salvar os arquivos do site dentro da pasta que foi criada. 
+5-       Procure a pasta que contém seu servidor local, geralmente vai ter o nome do pacote que contém o servidor (eu uso o  xampp control que contém os principais servidores, e o nome da minha pasta é xampp , vou usar o nome da minha pasta como exemplo).
+6-       Dentro da pasta xampp procure a pasta htdocs
+7-       Coloque a pasta que você criou contendo os arquivos do site dentro de htdocs.
+8-       Ligue seu servidor local.
+9-       Digite na URL: localhost/nome da pasta que você criou
+Após realizar todos os passos  o formulário já estará funcionando.
+ 
+Relatório ----
+Eu já conhecia a tecnologia  Sass, porém foi a primeira vez que a implementei em um projeto. 
+Não utilizei frameworks, pois não sabia se era permitido no desafio, então fiz todo o responsivo das DIVS.
+Preferi manter o desing da página o mais fiel ao layout que vocês me passaram. 

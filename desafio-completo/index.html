@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- biblioteca AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Navbar_mobile.css">
+  <link rel="stylesheet" href="css/resposivo.css">
+    <title>CodeWeb</title>
+</head>
+<body>
+    <header>
+        <div class="col" style="height: 8vh;">
+        <nav>
+            <a href="#" style="font-weight: bold;">CodeWeb</a>
+            <!-- divs hambuguers da barra de navegação mobile -->
+            <div class="mobile-menu dropdown-menu ">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li class="item-nav"><a href="#">HOME</a></li>
+                <li class="item-nav"><a href="#sobre">SOBRE</a></li>
+                <li class="item-nav"><a href="#servico">SERVIÇOS</a></li>
+                <li class="item-nav"><a href="#perguntas">DÚVIDAS</a></li>
+                <li class="item-nav"><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+        </div>
+        <!-- HOME -->
+        <div class="flex-container">
+            <div id="col-7">
+                <h1 id="t1">Desenvolvimento de Websites.<br>Foque na transformação que o seu produto gera.</h1> <br><br>
+                <h2 >A CodeWeb reliza o desenvolvimento do seu site.<br>
+                Focamos na qualidade do seu produto, fazendo se destacar no mercado.<br>
+                Vamos entregar um site completo e ptofissional.</h2>
+            </div>
+
+            <div class="col">
+                <div id="caixaForm">
+                    <form action="cadastro.php" method="post">
+                        <h2>Faça o seu pedido.</h2>
+                        <input type="text" placeholder="  NOME:" name="nome"> <br>
+                        <input type="email" placeholder="  E-MAIL:" name="email"> <br>
+                        <input type="number" placeholder="  DDD + TELEFONE:" name="telefone"> <br>
+                        <textarea name="message" rows="10" cols="30"> como podemos te ajudar?</textarea> <br>
+                        <button type="submit">SOLICITAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- SOBRE -->
+        <div class="flex-container" id="sobre">
+            <div class="col">
+                <h1 class="titulo_universal">Sobre</h1>
+            </div>
+
+            <div class="flex-container">
+                <div class="col">
+                    <div id="foto" data-aos="fade-right">
+                        <img src="img/codeweb.jpg" width="450px" height="300p0x" id="img_01" alt="">
+                        <p id="p1">Imagem representativa da logo da empresa: Autor proprio.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p id="p2" data-aos="fade-left">A codeweb vem atuando no mercado até o momento, para oferecer a melhor satisfação aos seus clientes em desenvolvimento de websites,
+                        fortalecer e facilitar a credibilidade das empresas, com isto, a codeweb trabalha com diversificados ramos de atividades.
+                        Como empresa, a nossa missão é facilitar e contribuir a comunicação digital para os usuários 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVIÇOS -->
+        <div class="flex-container"  id="servico">
+            <div class="col">
+                <h1 class="titulo_universal">Com este serviço você:</h1>
+            </div>
+
+            <div class="flex-container">  <!--coluna 1 -->
+                <div class="col">
+                    <div class="bordaSVC">
+                        <img src="img/icone_computador.png" alt="" class="icones">
+                        <p class="textoIcon">Crição de Sites</p>
+                        <p class="subText_icon">
+                            Criação de sites, websites personlizados. Sites em HTML, CSS, Jquery, PHP e Mysql.
+                        </p>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="bordaSVC">
+                        <img src="img/icone_responsive.png" alt="" class="icones">
+                        <p class="textoIcon">Responsive Desing</p>
+                        <p class="subText_icon">
+                            Sites adaptáveis em todos os dispositivos móveis, sites responsivos e flexbox.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bordaSVC">
+                        <img src="img/icone_lampada.png" alt="" class="icones">
+                        <p class="textoIcon">Criação de Marca</p>
+                        <p class="subText_icon">
+                            Criação de marca, desde o logotipo até seu site ou loja virtual.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container">  <!--coluna 2 -->
+                <div class="col">
+                    <div class="bordaSVC">
+                        <img src="img/icon-code.jpg" alt="" class="icones">
+                        <p class="textoIcon">Freelancer Front-end</p>
+                        <p class="subText_icon">
+                            Já possui a arte para seu site ou loja virtual? Desenvolvo a programação de seu projeto.
+                        </p>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="bordaSVC">
+                        <img src="img/icon-lupa.png" alt="" class="icones">
+                        <p class="textoIcon">Serviços de SEO</p>
+                        <p class="subText_icon">
+                            Otimização de sites, paginas web para melhorar o posicionamento nos buscadores orgnanicos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bordaSVC">
+                        <img src="img/icon-carrinho.png" alt="" class="icones">
+                        <p class="textoIcon">Lojas Virtuais / Ecommerces</p>
+                        <p class="subText_icon">
+                            Lojas virtuais e Ecommerces, desenvolvimento desde a arte até sua primeira venda.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container">  <!--coluna 3-->
+                <!-- chamada para ação -->
+                <div class="col" id="colPedido">
+                    <a id="btn-pedido" href="#">Faça seu pedido</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERGUNTAS -->
+        <div id="perguntas">
+            <div class="flex-container row">
+                <div class="col">
+                    <h1 class="titulo_universal">Perguntas frequentes</h1>
+                </div>
+            </div>
+
+            <div class="flex-container row"> <!-- coluna 1 -->
+                <div class="col">
+                    <div class="bordePerguntas" onclick="alert('nesse caso seria direcionado para outra pagina contendo as infomações')">
+                        <p>O site depois de desenvolvimento precisa fazer manutenção?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container row"> <!-- coluna 2 -->
+                <div class="col">
+                    <div class="bordePerguntas" onclick="alert('nesse caso seria direcionado para outra pagina contendo as infomações')">
+                        <p>Meu site aparecerá no Google?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container row"> <!-- coluna 3 -->
+                <div class="col">
+                    <div class="bordePerguntas" onclick="alert('nesse caso seria direcionado para outra pagina contendo as infomações')">
+                        <p>O que é registro de domínio?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container row"> <!-- coluna 4 -->
+                <div class="col">
+                    <div class="bordePerguntas" onclick="alert('nesse caso seria direcionado para outra pagina contendo as infomações')">
+                        <p>Qual o preço da criação do site?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container row"> <!-- coluna 5-->
+                <div class="col">
+                    <div class="bordePerguntas" onclick="alert('nesse caso seria direcionado para outra pagina contendo as infomações')">
+                        <p>Qual informação precisa para fornecer para a criação de um site?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contato quinta parte--- -->
+        <div id="contato">
+            <div class="flex-container"> <!-- coluna 1-->
+                <div class="col">
+                    <h1 class="titulo_universal" id="titulo_contato">Contato</h1>
+                </div>
+            </div>
+
+            <div class="flex-container" > <!-- coluna 2-->
+
+                <div class="col">
+                    <div class="contato_margin">
+                        <h1 class="col1_contato" id="faleConosco">Não perca seu tempo e fale conosco agora!</h1> <br>
+                        <p id="paragrafo_contato" class="col1_contato">SOLICITE AGORA O ORÇAMENTO E RECEBA EM MENOS DE 24 HORAS</p> <br>
+                        <h1 class="col1_contato"><a href="#">SOLICITAR ORÇAMENTO</a></h1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="contato_margin">
+                        <div id="caixaContat">
+                            <div class="flex-container row"> 
+                                <div class="col"> <!-- coluna 1-->
+                                    <div class="text_caixaContat">
+                                        <h3>Redes sociais</h3>
+                                    </div>
+                                </div>
+
+                                <div class="col"> <!-- coluna 2-->
+                                    <div class="text_caixaContat">
+                                        <p>siga a gente no instagram para acompanha a novidades e postes de sites já prontos.</p>
+                                        <img src="img/icon-insta.webp" alt="" width="40px" height="40px">
+                                    </div>
+                                </div>
+
+                                <div class="col"> <!-- coluna 3-->
+                                    <div class="text_caixaContat">
+                                        <p>Faça seu orçamento pelo whatszap</p>
+                                        <img src="img/icon-whats.png" alt="" width="50px" height="50px">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>  
+    </main>
+    
+    <footer> 
+        <div class="flex-container row"> 
+            <div class="col" id="direitosReservados">
+                <p>CodeWeb © Todos os direitos reservados - 2022</p>
+            </div>
+        </div>
+
+        <div class="flex-container "> 
+            <div class="col" id="cnpj">
+                <p>CNPJ 99.999.999-0009-99
+            </div>
+            <div class="col" id="termos">
+            <li>TERMOS DE USO</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/barra_navegacao.js"></script>
+
+<!-- animação Aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1000, 
+    });
+  </script>
+</body>
+</html>
